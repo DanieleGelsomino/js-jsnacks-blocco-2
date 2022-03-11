@@ -7,9 +7,9 @@ console.log("JS OK!");
 // fino a quando ne avrà tanti quanti l’altro.
 
 const listOne = ["ciao", 14, "Zlatan", 11, "Milan"];
-const ListTwo = [9, "Giroud"];
+const listTwo = [9, "Giroud"];
 
-while (ListTwo.length < listOne.length) {
-  ListTwo.push(Math.floor(Math.random() * 100) + 1);
-  console.log(ListTwo);
+while (listTwo.length < listOne.length) {
+  listTwo.push(Math.floor(Math.random() * 100) + 1);
+  console.log(listTwo);
 }
