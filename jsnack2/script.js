@@ -16,9 +16,11 @@ console.log("JS OK!");
 //     alert("inserisci un numero!");
 //   } else {
 //     somma += inputNumero;
-//     console.log(`la somma dei numeri inseriti è : ${somma}`);
+//
 //   }
 // }
+
+// console.log(`la somma dei numeri inseriti è : ${somma}`);
 
 // VERSIONE WHILE
 
@@ -35,6 +37,7 @@ for (let inputNumero = 0; inputNumero < 5; inputNumero++) {
     alert("inserisci un numero!");
   } else {
     somma += inputNumero;
-    console.log(`la somma dei numeri inseriti è : ${somma}`);
   }
 }
+
+console.log(`la somma dei numeri inseriti è : ${somma}`);

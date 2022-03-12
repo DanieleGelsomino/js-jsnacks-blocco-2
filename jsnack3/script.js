@@ -11,5 +11,6 @@ const listTwo = [9, "Giroud"];
 
 while (listTwo.length < listOne.length) {
   listTwo.push(Math.floor(Math.random() * 100) + 1);
-  console.log(listTwo);
 }
+
+console.log(listTwo);
