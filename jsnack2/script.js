@@ -25,19 +25,19 @@ console.log("JS OK!");
 // VERSIONE WHILE
 
 let somma = 0;
-let inputNumero;
+let numeri = [];
+let numeriInseriti = 0;
 
-while (isNaN(parseInt(inputNumero))) {
-  inputNumero = prompt("inserisci un numero");
-}
-
-for (let inputNumero = 0; inputNumero < 5; inputNumero++) {
-  const inputNumero = parseInt(prompt("digita un numero"));
-  if (isNaN(inputNumero)) {
-    alert("inserisci un numero!");
+while (numeriInseriti < 5) {
+  const inputNumero = prompt("inserisci un numero");
+  if (!isNaN(inputNumero)) {
+    somma += parseInt(inputNumero);
+    numeriInseriti++;
+    numeri.push(inputNumero);
   } else {
-    somma += inputNumero;
+    alert("numero non valido!");
   }
 }
 
 console.log(`la somma dei numeri inseriti è : ${somma}`);
+console.log("gli elementi inseriti sono: ", numeri);

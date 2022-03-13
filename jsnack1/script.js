@@ -5,7 +5,12 @@ console.log("JS OK!");
 // Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari.
 
 let somma = 0;
-const numeri = [4, 7, 3, 5, 6, 8, 5, 6, 2, 4, 4, 5, 7, 9];
+const numeri = [];
+const n = 15;
+
+for (let i = 0; i < n; i++) {
+  numeri.push(Math.floor(Math.random() * 100));
+}
 
 console.log(numeri);
 
